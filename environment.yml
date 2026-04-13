@@ -1,0 +1,19 @@
+name: cords2025
+channels:
+- conda-forge
+- defaults
+- gurobi
+dependencies:
+- pip
+- ipykernel
+- numpy
+- matplotlib
+- pandas
+- scipy
+- scikit-learn
+- numba
+- ngboost
+- statsmodels
+- gurobi
+- pip:
+  - mip
